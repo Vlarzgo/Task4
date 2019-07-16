@@ -17,7 +17,8 @@ public class Main {
 
     private static boolean isMoveToStartPosition(String robotMove) {
         char[] robotMoveArray = robotMove.toCharArray();
-        int x = 0, y = 0;  // enter Cartesian coordinates for move
+        int x = 0; 
+        int y = 0;  // enter Cartesian coordinates for move
         for (char c : robotMoveArray) {
             if (c == 'U') {
                 y++;
